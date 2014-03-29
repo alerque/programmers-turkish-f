@@ -1,0 +1,43 @@
+// Hexadecimal Numpad, by Roland Kaufmann <rlndkfmn at gmail dot com>
+// License: BSD (also covers variant with ATM digit order)
+// Third-level gives the letters used in hexadecimal numbers, or
+// columns in small spreadsheets. As a bonus, having 'e' available at
+// the center of the keyboard makes it easy to enter floating point
+// numbers in scientific notation.
+// Equal is added to start formulas (most numpads on PCs don't have
+// their own equal key), comma as a list separator (as most
+// programming languages wants period as a decimal separator) and
+// colon to enter times and ranges. Someone also may want to represent
+// multiplication and division in prose using x and colon.
+// Two first levels are specified as NoSymbol to not override any
+// previous specification. Combine this with another keypad specifier,
+// e.g. "legacy".
+partial keypad_keys
+xkb_symbols "hex" {
+    key.type[Group1]="FOUR_LEVEL_MIXED_KEYPAD" ;
+
+    //             None       NumLock      AltGr
+    // symbol row
+    key <KPDV> { [ NoSymbol,  NoSymbol,  parenleft  ] };
+    key <KPMU> { [ NoSymbol,  NoSymbol,  parenright ] };
+    key <KPSU> { [ NoSymbol,  NoSymbol,  dollar     ] };
+
+    // upper row
+    key <KP7>  { [ NoSymbol,  NoSymbol,  a          ] };
+    key <KP8>  { [ NoSymbol,  NoSymbol,  b          ] };
+    key <KP9>  { [ NoSymbol,  NoSymbol,  c          ] };
+ 
+    // home row
+    key <KP4>  { [ NoSymbol,  NoSymbol,  d          ] };
+    key <KP5>  { [ NoSymbol,  NoSymbol,  e          ] };
+    key <KP6>  { [ NoSymbol,  NoSymbol,  f          ] };
+    key <KPAD> { [ NoSymbol,  NoSymbol,  comma      ] };
+
+    // lower row
+    key <KP1>  { [ NoSymbol,  NoSymbol,  equal      ] };
+    key <KP2>  { [ NoSymbol,  NoSymbol,  x          ] };
+    key <KP3>  { [ NoSymbol,  NoSymbol,  colon      ] };
+
+    // decimal row
+    key <KP0>  { [ NoSymbol,  NoSymbol,  backslash  ] };
+};

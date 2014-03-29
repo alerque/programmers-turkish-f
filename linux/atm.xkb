@@ -1,0 +1,19 @@
+// Main numbers follows the traditions from ATMs and phones with
+// numbers increasing downwards to the right. (It is easier to
+// change the keyboard layout than to reprogram your local ATM;
+// also cell-phones are becoming more common while calculators are
+// becoming more rare).
+// First level is left unspecified, so it may be combined with another
+// layout, e.g. "legacy".
+partial keypad_keys
+xkb_symbols "atm" {
+    // upper row
+    key <KP7>  { [ NoSymbol,  KP_1 ] };
+    key <KP8>  { [ NoSymbol,  KP_2 ] };
+    key <KP9>  { [ NoSymbol,  KP_3 ] };
+
+    // lower row
+    key <KP1>  { [ NoSymbol,  KP_7 ] };
+    key <KP2>  { [ NoSymbol,  KP_8 ] };
+    key <KP3>  { [ NoSymbol,  KP_9 ] };
+};

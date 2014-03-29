@@ -1,0 +1,8 @@
+// if you have a 102-keys keyboard, then you are probably in a country
+// that uses accented characters. by using the 102nd key as Compose, you
+// can keep a 101-keys layout (such as U.S.) and still type the accented
+// characters.
+partial modifier_keys
+xkb_symbols "102" {
+    key <LSGT> { type[Group1]="TWO_LEVEL", [ Multi_key, Multi_key ] };
+};
