@@ -1,23 +1,12 @@
 // Caleb Maclennan <caleb@alerque.com>, 2014
 
-partial
+partial alphanumeric_keys
+
 xkb_symbols "ptf" {
 
     include "dvp"
 
     name[Group1]="Programmers Turkish F";
-
-    key <AE01>	{ [         1,     exclam,  onesuperior,   exclamdown ]	};
-    key <AE02>	{ [         2,   quotedbl,  twosuperior,   VoidSymbol ]	};
-    key <AE03>	{ [         3, asciicircum, numbersign, threesuperior ] };
-    key <AE04>	{ [         4,     dollar,   onequarter,   VoidSymbol ]	};
-    key <AE06>	{ [         6,  ampersand, threequarters,  VoidSymbol ]	};
-    key <AE07>	{ [         7, apostrophe,    braceleft,   VoidSymbol ]	};
-    key <AE08>	{ [         8,  parenleft,  bracketleft,   VoidSymbol ]	};
-    key <AE09>	{ [         9, parenright, bracketright,    plusminus ]	};
-    key <AE10>	{ [         0,      equal,   braceright,       degree ]	};
-    key <AE11>	{ [     slash,   question,    backslash, questiondown ]	};
-    key <AE12>	{ [     minus, underscore,          bar,   VoidSymbol ]	};
 
     key <AD01>	{ [         f,          F,           at,   VoidSymbol ]	};
     key <AD02>	{ [         g,          G,   VoidSymbol,   VoidSymbol ]	};
