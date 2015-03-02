@@ -8,46 +8,46 @@ xkb_symbols "ptf" {
 
     name[Group1]="Programmers Turkish F";
 
-    key <AD01>	{ [         f,          F,           semicolon,   colon ]	};
-    key <AD02>	{ [         g,          G,   comma,   less ]	};
-    key <AD03>	{ [    gbreve,     Gbreve,   period,   greater ]	};
-    key <AD04>	{ type[group1] = "FOUR_LEVEL_SEMIALPHABETIC",
-                  [  idotless,          I,    paragraph,   VoidSymbol ]	};
-    key <AD05>	{ [         o,          O,  ocircumflex,  Ocircumflex ]	};
-    key <AD06>	{ [         d,          D,          yen,   VoidSymbol ]	};
-    key <AD07>	{ [         r,          R,   registered,   VoidSymbol ]	};
-    key <AD08>	{ [         n,          N,   VoidSymbol,   VoidSymbol ]	};
-    key <AD09>	{ [         h,          H,       degree,   VoidSymbol ]	};
-    key <AD10>	{ [         p,          P,     sterling,   VoidSymbol ]	};
-    key <AD11>	{ [         q,          Q, slash, question ] };
-    key <AD12>	{ [         w,          W,   at,   asciicircum ]	};
+    key <AD01> { [	f,	F,	semicolon,		colon	] };
+    key <AD02> { [	g,	G,	comma,		less	] };
+    key <AD03> { [	gbreve,	Gbreve,	period,		greater	] };
+    key <AD04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC",
+                 [	idotless,	I,	paragraph,		VoidSymbol	] };
+    key <AD05> { [	o,	O,	ocircumflex,		Ocircumflex	] };
+    key <AD06> { [	d,	D,	yen,		VoidSymbol	] };
+    key <AD07> { [	r,	R,	registered,		VoidSymbol	] };
+    key <AD08> { [	n,	N,	VoidSymbol,		VoidSymbol	] };
+    key <AD09> { [	h,	H,	degree,		VoidSymbol	] };
+    key <AD10> { [	p,	P,	sterling,		VoidSymbol	] };
+    key <AD11> { [	q,	Q,	slash,		question	] };
+    key <AD12> { [	w,	W,	at,		asciicircum	] };
 
-    key <AC01>	{ [         u,          U,  ucircumflex,  Ucircumflex ]	};
-    key <AC02>	{ type[group1] = "FOUR_LEVEL_ALPHABETIC",
-                  [         i,  Iabovedot,  icircumflex,  Icircumflex ]	};
-    key <AC03>	{ [         e,          E,     EuroSign,   VoidSymbol ]	};
-    key <AC04>	{ [         a,          A,  acircumflex,  Acircumflex ]	};
-    key <AC05>	{ [udiaeresis, Udiaeresis,  ucircumflex,  Ucircumflex ]	};
-    key <AC06>	{ [         t,          T,    trademark,   VoidSymbol ]	};
-    key <AC07>	{ [         k,          K,   VoidSymbol,   VoidSymbol ]	};
-    key <AC08>	{ [         m,          M,           mu,   VoidSymbol ]	};
-    key <AC09>	{ [         l,          L,   VoidSymbol,   VoidSymbol ]	};
-    key <AC10>	{ [         y,          Y,        acute,   dead_acute ]	};
-    key <AC11>	{ [  scedilla,   Scedilla,    minus, underscore ]	};
-    key <TLDE>	{ [      plus,   asterisk,      notsign,    plusminus ]	};
+    key <AC01> { [	u,	U,	ucircumflex,		Ucircumflex	] };
+    key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC",
+                 [	i,	Iabovedot,	icircumflex,		Icircumflex	] };
+    key <AC03> { [	e,	E,	EuroSign,		VoidSymbol	] };
+    key <AC04> { [	a,	A,	acircumflex,		Acircumflex	] };
+    key <AC05> { [	udiaeresis,	Udiaeresis,	ucircumflex,		Ucircumflex	] };
+    key <AC06> { [	t,	T,	trademark,		VoidSymbol	] };
+    key <AC07> { [	k,	K,	VoidSymbol,		VoidSymbol	] };
+    key <AC08> { [	m,	M,	mu,		VoidSymbol	] };
+    key <AC09> { [	l,	L,	VoidSymbol,		VoidSymbol	] };
+    key <AC10> { [	y,	Y,	acute,		dead_acute	] };
+    key <AC11> { [	scedilla,	Scedilla,	minus,		underscore	] };
+    key <TLDE> { [	plus,	asterisk,	notsign,		plusminus	] };
 
-    key <BKSL>	{ [         x,          X,        backslash,   bar ]	};
-    key <AB01>	{ [         j,          J, apostrophe,  quotedbl ]	};
-    key <AB02>	{ [odiaeresis, Odiaeresis, guillemotright, VoidSymbol ]	};
-    key <AB03>	{ [         v,          V, leftdoublequotemark, VoidSymbol ] };
-    key <AB04>	{ [         c,          C,         cent,    copyright ]	};
-    key <AB05>	{ [  ccedilla,   Ccedilla, rightdoublequotemark, VoidSymbol] };
-    key <AB06>	{ [         z,          Z,   VoidSymbol,   VoidSymbol ]	};
-    key <AB07>	{ [         s,          S,      section,   VoidSymbol ]	};
-    key <AB08>	{ [         b,          B,     multiply, nobreakspace ]	};
-    key <AB09>	{ [    period,      colon,     division, dead_abovedot]	};
-    key <AB10>	{ [     comma,  semicolon, periodcentered, VoidSymbol ]	};
-    key <LSGT>	{ [     less,     greater,          bar,    brokenbar ]	};
+    key <BKSL> { [	x,	X,	backslash,		bar	] };
+    key <AB01> { [	j,	J,	apostrophe,		quotedbl	] };
+    key <AB02> { [	odiaeresis,	Odiaeresis,	guillemotright,	VoidSymbol	] };
+    key <AB03> { [	v,	V,	leftdoublequotemark,	VoidSymbol	] };
+    key <AB04> { [	c,	C,	cent,		copyright	] };
+    key <AB05> { [	ccedilla,	Ccedilla,	rightdoublequotemark,	VoidSymbol	] };
+    key <AB06> { [	z,	Z,	VoidSymbol,		VoidSymbol	] };
+    key <AB07> { [	s,	S,	section,		VoidSymbol	] };
+    key <AB08> { [	b,	B,	multiply,		nobreakspace	] };
+    key <AB09> { [	period,	colon,	division,		dead_abovedot	] };
+    key <AB10> { [	comma,	semicolon,	periodcentered,	VoidSymbol	] };
+    key <LSGT> { [	less,	greater,	bar,		brokenbar	] };
 
     //include "kpdl(comma)"
     //include "level3(ralt_switch)"
