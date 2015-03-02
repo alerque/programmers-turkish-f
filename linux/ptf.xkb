@@ -37,7 +37,7 @@ xkb_symbols "ptf" {
     key <TLDE>	{ [      plus,   asterisk,      notsign,    plusminus ]	};
 
     key <BKSL>	{ [         x,          X,        backslash,   bar ]	};
-    key <AB01>	{ [         j,          J, guillemotleft,  VoidSymbol ]	};
+    key <AB01>	{ [         j,          J, apostrophe,  quotedbl ]	};
     key <AB02>	{ [odiaeresis, Odiaeresis, guillemotright, VoidSymbol ]	};
     key <AB03>	{ [         v,          V, leftdoublequotemark, VoidSymbol ] };
     key <AB04>	{ [         c,          C,         cent,    copyright ]	};
