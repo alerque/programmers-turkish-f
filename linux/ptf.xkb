@@ -11,8 +11,7 @@ xkb_symbols "ptf" {
     key <AD01> { [	f,	F,	semicolon,		colon	] };
     key <AD02> { [	g,	G,	comma,		less	] };
     key <AD03> { [	gbreve,	Gbreve,	period,		greater	] };
-    key <AD04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC",
-                 [	idotless,	I,	paragraph,		VoidSymbol	] };
+    key <AD04> { [	idotless,	I,	paragraph,		VoidSymbol	] };
     key <AD05> { [	o,	O,	ocircumflex,		Ocircumflex	] };
     key <AD06> { [	d,	D,	yen,		VoidSymbol	] };
     key <AD07> { [	r,	R,	registered,		VoidSymbol	] };
@@ -23,8 +22,7 @@ xkb_symbols "ptf" {
     key <AD12> { [	w,	W,	at,		asciicircum	] };
 
     key <AC01> { [	u,	U,	ucircumflex,		Ucircumflex	] };
-    key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC",
-                 [	i,	Iabovedot,	icircumflex,		Icircumflex	] };
+    key <AC02> { [	i,	Iabovedot,	icircumflex,		Icircumflex	] };
     key <AC03> { [	e,	E,	EuroSign,		VoidSymbol	] };
     key <AC04> { [	a,	A,	acircumflex,		Acircumflex	] };
     key <AC05> { [	udiaeresis,	Udiaeresis,	ucircumflex,		Ucircumflex	] };
